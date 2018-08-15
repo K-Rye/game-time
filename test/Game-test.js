@@ -17,7 +17,8 @@ describe('Game', () => {
     //assertion
     //teardown
   })
-  it('should end the game if block collides with wall', () => {
+  it.skip('should end the game if block collides with wall', () => {
+  
 
   });
 
