@@ -1,11 +1,36 @@
+
+
 #game {
-  border: 1px dashed;
-  margin: auto;
+  border: solid 5px #7A1563;
+  margin: 100px auto 10px;
   display: block;
+  background: #091024;
 }
 
 body {
- /* background: url(http://4everstatic.com/images/art/film-et-serie/tron-lheritage-181676.jpg;);
-  background-size: cover;*/
+  display: flex;
+  flex-direction: column;
+  background: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/80s-neon-background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.game-start {
+  margin: auto;
+  width: 75px;
+  height: 75px; 
+  border-radius: 55px;
+  border: solid 4px #d2852b;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 13px;
+
+}
+
+.game-start:hover {
+  border: solid 5px red;
+  cursor: pointer;
+}
+
+.player-info-section {
   
 }
