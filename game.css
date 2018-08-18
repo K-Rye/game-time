@@ -28,6 +28,7 @@ body {
 
 .game-start:hover {
   border: solid 5px red;
+  outline-style: none;
   cursor: pointer;
 }
 
