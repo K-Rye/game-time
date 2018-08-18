@@ -15,6 +15,11 @@ body {
   background-size: cover; 
 }
 
+.player-score-info {
+  display: flex;
+  justify-content: space-between;
+}
+
 .game-start {
   margin: 10px auto 15px;
   width: 75px;
@@ -23,7 +28,6 @@ body {
   border: solid 4px #d2852b;
   font-family: 'Orbitron', sans-serif;
   font-size: 13px;
-
 }
 
 .game-start:hover {
@@ -36,7 +40,18 @@ body {
   display: flex;
   justify-content: space-between;
   font-family: 'Orbitron', sans-serif;
-  margin-top: 17px;
-  margin-bottom: 55px
+  margin: 17px 20px 60px 20px;
+}
+
+.game-title {
+  font-style: italic;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.player-font {
+  color: #E857E2;
+  font-style: bold;
+  box-shadow: white
 
 }
