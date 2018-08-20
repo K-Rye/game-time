@@ -51,8 +51,29 @@ body {
 }
 
 .player-font {
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  font-style: bold;
+  box-shadow: white
+}
+
+.gameover {
+  font-family: 'Orbitron', sans-serif;
   color: #E857E2;
   font-style: bold;
   box-shadow: white
+}
 
+.try-again {
+  font-family: 'Orbitron', sans-serif;
+  color: #E857E2;
+  font-style: bold;
+  box-shadow: white
+}
+
+.playerLives {
+  font-family: 'Orbitron', sans-serif;
+  color: #E857E2;
+  font-style: bold;
+  box-shadow: white
 }
