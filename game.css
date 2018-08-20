@@ -1,8 +1,11 @@
 
+* {
+  box-sizing: border-box;
+}
 
 #game {
   border: solid 5px #7A1563;
-  margin: 100px auto 10px;
+  margin: 5px auto 10px;
   display: block;
   background: #091024;
 }
@@ -15,53 +18,75 @@ body {
   background-size: cover; 
 }
 
-.player-score-info {
+.player-info-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 60px;
 }
 
 .game-start {
   margin: 10px auto 15px;
-  width: 75px;
-  height: 75px; 
+  width: 85px;
+  height: 85px; 
   border-radius: 55px;
-  border: solid 4px #d2852b;
+  border: solid 4px white;
   font-family: 'Orbitron', sans-serif;
   font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #7A1563; 
 }
 
 .game-start:hover {
-  border: solid 5px red;
+  border: solid 5px ;
   outline-style: none;
   cursor: pointer;
+  background-color: #2501CF;
 }
 
-.player-info-section {
+.player-info {
   color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-family: 'Orbitron', sans-serif;
   margin: 17px 20px 60px 20px;
 }
 
 .game-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
   font-style: italic;
   font-size: 45px;
   font-weight: bold;
+  color: white;
+  border: solid 2px white;
+  box-shadow: 5px black;
+  height: 100px;
+  width: 250px;
+  background-image: url('https://haulnride.com/wp-content/uploads/2017/12/Tron-motorcycle-2.jpg');
+  background-size: contain;
 }
 
 .player-font {
+  display: flex;
   font-family: 'Orbitron', sans-serif;
   color: white;
   font-style: bold;
-  box-shadow: white
+}
+
+.player-lives {
+  margin: 1px 1px 1px 1px;
 }
 
 .gameover {
   font-family: 'Orbitron', sans-serif;
   color: #E857E2;
   font-style: bold;
-  box-shadow: white
+  box-shadow: white;
+  text-align: center;
 }
 
 .try-again {
