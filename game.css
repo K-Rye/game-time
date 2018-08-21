@@ -5,7 +5,7 @@
 
 #game {
   border: solid 5px #7A1563;
-  margin: 5px auto 10px;
+  margin: 30px auto 10px;
   display: block;
   background: #091024;
 }
@@ -21,7 +21,7 @@ body {
 .player-info-section {
   display: flex;
   justify-content: space-around;
-  margin-top: 60px;
+  margin-top: 25px;
 }
 
 .game-start {
@@ -41,7 +41,7 @@ body {
   border: solid 5px ;
   outline-style: none;
   cursor: pointer;
-  background-color: #2501CF;
+  background-color: #E663AF;
 }
 
 .player-info {
@@ -50,7 +50,7 @@ body {
   justify-content: space-between;
   align-items: center;
   font-family: 'Orbitron', sans-serif;
-  margin: 17px 20px 60px 20px;
+  margin: 25px 20px 60px 20px;
 }
 
 .game-title {
@@ -68,6 +68,7 @@ body {
   width: 250px;
   background-image: url('https://haulnride.com/wp-content/uploads/2017/12/Tron-motorcycle-2.jpg');
   background-size: contain;
+  margin: 0;
 }
 
 .player-font {
@@ -78,7 +79,7 @@ body {
 }
 
 .player-lives {
-  margin: 1px 1px 1px 1px;
+  margin: 1px 1px 1px 15px;
 }
 
 .gameover {
@@ -93,12 +94,16 @@ body {
   font-family: 'Orbitron', sans-serif;
   color: #E857E2;
   font-style: bold;
-  box-shadow: white
+  font-style: italic;
+  /*visibility: hidden;*/
 }
 
 .playerLives {
   font-family: 'Orbitron', sans-serif;
   color: #E857E2;
   font-style: bold;
-  box-shadow: white
+}
+
+.score {
+  margin: 1px 1px 1px 10px;
 }
