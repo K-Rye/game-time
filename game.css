@@ -16,6 +16,7 @@ body {
   background: url(assets/game-back.jpg);
   background-repeat: no-repeat;
   background-size: cover; 
+  background-color: #D45EC9;
 }
 
 .player-info-section {
@@ -79,7 +80,7 @@ body {
 }
 
 .player-lives {
-  margin: 1px 1px 1px 15px;
+  margin: 1px 1px 25px 15px;
 }
 
 .gameover {
@@ -88,6 +89,7 @@ body {
   font-style: bold;
   box-shadow: white;
   text-align: center;
+  visibility: hidden;
 }
 
 .try-again {
@@ -95,7 +97,7 @@ body {
   color: #E857E2;
   font-style: bold;
   font-style: italic;
-  /*visibility: hidden;*/
+  visibility: hidden;
 }
 
 .playerLives {
